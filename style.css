@@ -1,0 +1,13 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+#game_container {
+    width: 100%;
+    height: fit-content;
+    padding: 50px 0;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+}

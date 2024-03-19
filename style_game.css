@@ -1,0 +1,72 @@
+header{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    background-color: lightblue;
+}
+
+button{
+    width: 150px;
+    margin-bottom: 5%;
+    margin-left: 15%;
+}
+
+p{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}
+
+.hide{
+    display: none;
+}
+table {
+    width: 45%;
+    height: 500px;
+    background-color: lightslategrey;
+    margin-top: 50px;
+}
+
+tbody {
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+
+tr {
+    display: flex;
+    width: 100%;
+    height: 16.67%;
+    background-color: blue;
+    justify-content: center;
+}
+
+td {
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: lightslategray;
+    margin: 10px;
+}
+
+.drop{
+    animation: dropping 1.5s;
+}
+
+@keyframes dropping {
+    0% {
+        transform: translateY(-500px);
+        opacity: 0.7;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+span{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
